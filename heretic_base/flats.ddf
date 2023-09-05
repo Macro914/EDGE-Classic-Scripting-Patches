@@ -1,0 +1,41 @@
+// 
+//    EDGE FLAT.DDF -redefine or add new flat properties.
+//    For documentation, see https://edge-classic.github.io/
+//
+
+<FLATS>
+
+#VERSION 1.30
+
+
+//LAVA1 name conflicts with Doom animated liquid
+//so we nullify it for Heretic here
+[LAVA1]
+//Nothin' to see here: move along ;)
+
+
+[FLATHUH1]
+IMPACT_OBJECT="LAVA_SPLASH";
+LIQUID = "THICK";
+SINK_DEPTH = 25%;
+BOB_DEPTH = 10%;
+
+[FLATHUH2]
+IMPACT_OBJECT="LAVA_SPLASH";
+LIQUID = "THICK";
+SINK_DEPTH = 25%;
+BOB_DEPTH = 10%;
+
+[FLATHUH3]
+IMPACT_OBJECT="LAVA_SPLASH";
+LIQUID = "THICK";
+SINK_DEPTH = 25%;
+BOB_DEPTH = 10%;
+
+[FLATHUH4]
+IMPACT_OBJECT="LAVA_SPLASH";
+LIQUID = "THICK";
+SINK_DEPTH = 25%;
+BOB_DEPTH = 10%;
+ 
+ 
