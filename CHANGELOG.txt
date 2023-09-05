@@ -1,0 +1,42 @@
+
+[FIXED/CHANGES - 4th Sept 2023]
+
+- Missing Pause text. Might need fine adjustment.
+- Added Missing HUD ammo icons when using tome of power
+- Fixed Tome of Power icon location when using it
+- Fixed Wings of Wrath icon location when using it
+
+- Tomed Staff attack PUFF size made like original
+- Removed Tomed Staff Puff transparency
+- Removed Tomed Staff Puff float speed
+
+- Wand Crystal projective floating up after hitting. FloatSpeed = 0
+- Wand Crystal Attack too much spread in vertical axis: removed AccuracySlope.
+- Wand Crystal Attack reduced dlight radius
+- Tomed Wand crystal wrong attack: added correct sprites, accuracy angles and offsets
+
+- Crossbow missing explossion sound
+- Crossbow normal attack wrong accuracy angles
+- Crossbow tomed attack wrong accuracy angles
+- Crossbow attacks reduced dligh size
+
+- Fixed Hell Staff tomed to behave more like original one. Might need fine adjustment.
+
+- Fixed Tomed Phoenix Rod frames. Might need more fine tuning.
+- Fixed Phoenix Rod shooting distance
+- Fixed Phoenix Rod missing attack slight offset
+
+- Gargoyles wrong damage timing: removed dash damage
+- Gargoyles reduced dash attack chance to 25% (as originally intended)
+- Gargoyle fixed actor states
+
+- Dragon Claw projective floating up after hitting. FloatSpeed = 0
+
+[BUGS/TODO]
+
+- If all ammo is used up while activating tome of power, when you get ammo again, the Crystal Wand shoots only normal projectiles, not powered ones
+- Necro Gauntlets wrong sound
+- Change Inventory Style to Heretic Style when using original Heretic Status Bar
+- Phoenix Rod missing pushback effect with normal attack
+
+- Fix wrong scrolling floor on MAPXX
